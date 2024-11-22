@@ -12,6 +12,13 @@ This project aims to develop a predictive model that can accurately classify ind
 - Seaborne and Martplotlib
 ### Data Filtering and sorting
 The target column contain 6 disease classes and were reduced to 2 categorical classes( Diseased, Non-diseased) using the find and replace function in advance excel.
+### Data Analysis
+```ipynb
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import sklearn
+```
 ### Data Cleaning and Sorting  
 It involves cleaning data to remove null/missing values or using an imputer class to compute the mean, median or mode where data are missing/null.
 ### Data Processing
